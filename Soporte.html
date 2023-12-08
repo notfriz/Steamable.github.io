@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta name="contacto" content=" Este es el Formulario de soporte de Steam.">
+    <link href="Estil_Steam.css" rel="stylesheet" type="text/css">
+    <style>
+        
+        p {
+            color: rgb(222, 217, 217);
+        }
+
+        
+
+    </style>
+    <title>Rebajas de Navidad de <strong> Steam </strong> </title>
+    <link href="Estil_Steam.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+
+
+</head>
+
+<body>
+    <div class="fondo-ajustado">
+        <h1 style="background:rgb(0, 0, 0); color:white; font-weight:bold;"> Soporte de </h1> 
+        <img src="Fotos_Steam/header_logo_Steam_(soporteSteam).png" height="100" width="465" alt="">
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+    
+        <form>
+           
+            <p>Nombre de usuario</p>
+            <input type="text" name="nombre" value="" style="background:rgb(0, 0, 0); color:white;">
+
+
+            <p>Email de contacto</p>
+            <input type="email" name="email" value="" size="20" maxlength="50"
+                style="background:rgb(0, 0, 0); color:white;">
+            <br>
+            <br>
+            <br>
+            
+            <div class="contorno-marco">
+            <p> Valoracion de web:</p>
+            <br>
+            <br>
+            <p>Estas contento contento con nuestro funcionamiento? </p>
+            <select id="so" name="so" style="background:rgb(0, 0, 0); color:white;">
+
+                <option value="" selected="selected">- selecciona -</option>
+                <option value="Muchos problemas">No, me da muchisimos problemas</option>
+                <option value="Algun Problemas"> No demasiado, me ha dado algunos problemas</option>
+                <option value="Mejoras">Si, aunque haria un par de cambios para mejorar</option>
+                <option value="perfecto">Si, todo perfecto</option>
+
+            </select>
+            <br>
+            <br>
+
+            <p>Volverias a visitar nuestra web? </p>
+            <input type="radio" name="Curso a realizar" value="si" checked="checked" ><strong style=" color:white;">Si</strong>
+            <input type="radio" name="Curso a realizar" value="no"><strong style=" color:white;">No</strong>
+            <br>
+            <br>
+            <p>Que podemos hacer para mejorar su estancia con nosotros?</p>
+            <textarea id="descripcion" name="descripcion" cols="40" rows="5"
+                style="background:rgb(0, 0, 0); color:white;"></textarea>
+            
+            <br>
+            <input type="button" name="guardar" value="Guardar cambios">
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="contorno-marco">
+            <p>Soporte:</p>
+            <br>
+            <br>
+            <p>Identifique su problema/error emergente </p>
+            <select id="sel" name="sel" style="background:rgb(0, 0, 0); color:white;">
+
+                <option value="" selected="selected">- selecciona -</option>
+                <option value="Cuenta">Problemass con mi cuenta</option>
+                <option value="Transacción">Error de transaccion</option>
+                <option value="Juego">Problemas con un juego determinado</option>
+                <option value="Comunidad">Problema con la comunidad de Steam</option>
+                <option value="Compras">Problemas con mis compras</option>
+                <option value="Otro">Mi problema no coincide con ninguna de las opciones</option>
+
+            </select>
+            <br>
+            <br>
+            <p>Describa su problema:</p>
+            <textarea id="tex" name="tex" cols="40" rows="5"
+                style="background:rgb(0, 0, 0); color:white;"></textarea>
+        
+            <br>
+            <input type="button" name="guardar" value="Guardar cambios">
+            </div>
+            <br>
+            <br>
+
+            
+
+            <p> Muchas gracias por notificarlo, le contestaremos desde </p>
+            <p><strong>soportestaem@gmail.com</strong></p>
+            <p>al correo especificado anteriormente.</p>
+            <input type="submit" name="enviar" value="Enviar">
+
+            
+        </form>
+    </div>
+</body>
+
+</html>
